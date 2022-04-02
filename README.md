@@ -27,7 +27,7 @@ docker build --force-rm . -t sbilly/zerotier-controller:latest
 ## Run
 
 ### Controller
-
+.
 ```bash
 # Run with default settings
 docker run --rm -ti -p 4000:4000 -p 9993:9993 -p 9993:9993/udp sbilly/zerotier-controller:latest
